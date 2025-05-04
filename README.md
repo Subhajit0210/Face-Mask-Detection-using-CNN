@@ -75,7 +75,7 @@ cd customer-segmentation
 ```
 4. Run the Jupyter notebook:
 ```bash
-jupyter notebook Customer_Segmentation.ipynb
+jupyter notebook Face_Mask_Detection_using_CNN.ipynb
 ```
 
 ## Contributing
