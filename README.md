@@ -49,10 +49,34 @@ The project uses the "Face Mask Dataset" available on Kaggle. This dataset conta
 
 ## CNN Model
 This project employs a Convolutional Neural Network (CNN) to classify images of people with and without masks. CNNs are particularly well-suited for image recognition tasks due to their ability to learn spatial hierarchies of features.
+
 **Model Architecture:**
+
 The CNN model consists of the following layers:
 * **Convolutional Layers:** These layers extract features from the input images using learnable filters. We use multiple convolutional layers with increasing filter sizes to capture both low-level and high-level features.
 * **Max Pooling Layers:** These layers downsample the feature maps, reducing their dimensionality and computational complexity. They also help to make the model more robust to variations in the input images.
 * **Flatten Layer:** This layer converts the multi-dimensional feature maps into a single vector, preparing them for input to the fully connected layers.
 * **Fully Connected Layers:** These layers perform the final classification based on the extracted features. We use two fully connected layers with ReLU activation functions, followed by a final output layer with a sigmoid activation function for binary classification (mask or no mask).
 
+## Results and Insights
+* **High Accuracy:** Our CNN model achieved over 92% accuracy in detecting face masks.
+* **Effective for Real-world Use:** This shows its potential for applications like public health monitoring.
+* **Further Improvements:** We can explore data augmentation and model architecture for even better results.
+
+## Usage
+To run the project, follow these steps:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/customer-segmentation.git
+```
+2. Navigate to the project directory:
+```bash
+cd customer-segmentation
+```
+4. Run the Jupyter notebook:
+```bash
+jupyter notebook Customer_Segmentation.ipynb
+```
+
+## Contributing
+Contributions are welcome! Please create a new branch for any changes and submit a pull request for review.
