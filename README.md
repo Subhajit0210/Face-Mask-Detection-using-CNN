@@ -5,8 +5,7 @@
 - [Dependencies](#dependencies)
 - [Data Collection](#data-collection)
 - [Data Preparation](#data-preparation)
-- [Data Visualization](#data-visualization)
-- [Clustering Techniques](#clustering-techniques)
+- [CNN Model](#cnn-model)
 - [Results and Insights](#results-and-insights)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -48,4 +47,12 @@ The project uses the "Face Mask Dataset" available on Kaggle. This dataset conta
 * **Split:** Data is split into training and testing sets.
 * **Scale:** Pixel values are scaled to a range of 0-1.
 
+## CNN Model
+This project employs a Convolutional Neural Network (CNN) to classify images of people with and without masks. CNNs are particularly well-suited for image recognition tasks due to their ability to learn spatial hierarchies of features.
+**Model Architecture:**
+The CNN model consists of the following layers:
+* **Convolutional Layers:** These layers extract features from the input images using learnable filters. We use multiple convolutional layers with increasing filter sizes to capture both low-level and high-level features.
+* **Max Pooling Layers:** These layers downsample the feature maps, reducing their dimensionality and computational complexity. They also help to make the model more robust to variations in the input images.
+* **Flatten Layer:** This layer converts the multi-dimensional feature maps into a single vector, preparing them for input to the fully connected layers.
+* **Fully Connected Layers:** These layers perform the final classification based on the extracted features. We use two fully connected layers with ReLU activation functions, followed by a final output layer with a sigmoid activation function for binary classification (mask or no mask).
 
