@@ -67,11 +67,11 @@ The CNN model consists of the following layers:
 To run the project, follow these steps:
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/customer-segmentation.git
+git clone https://github.com/yourusername/Face-Mask-Detection-using-CNN.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd customer-segmentation
+cd Face-Mask-Detection-using-CNN
 ```
 4. Run the Jupyter notebook:
 ```bash
