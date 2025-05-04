@@ -15,8 +15,8 @@ The goal of this project is to create a model that can accurately detect whether
 
 ## Dependencies
 The following libraries are required to run this project:
-- Python 3.x
-- TensorFlow 2.x
+- Python
+- TensorFlow
 - Keras
 - OpenCV
 - NumPy
