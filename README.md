@@ -39,6 +39,13 @@ The project uses the "Face Mask Dataset" available on Kaggle. This dataset conta
 * **Image Format:** JPEG
 * **Resolution:** Varies
 
-
+## Data Preparation
+* **Download:** The Dataset is downloaded from Kaggle using the Kaggle API.
+* **Extract:** The downloaded dataset is extracted.
+* **Resize:** All images are resized to 128x128 pixels for consistency.
+* **Convert:** Images are converted into NumPy arrays for processing.
+* **Label:** Images are labeled as 'with_mask' or 'without_mask'.
+* **Split:** Data is split into training and testing sets.
+* **Scale:** Pixel values are scaled to a range of 0-1.
 
 
